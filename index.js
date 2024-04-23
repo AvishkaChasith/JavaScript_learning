@@ -55,3 +55,15 @@ console.log(student); // 961
 // / = devide
 // % = modules. give remainder
 student += 1; // this is same to student = student + 1;
+
+// how to accept user input
+
+let username;
+//username = window.prompt(`What is your name?`);
+//console.log(username);
+
+document.getElementById("mySubmit").onclick = function () {           // *sinhala - html eke mySubmit kiyl id attribute ekkin hdpu submit button ek click krm (onclick event ek thmy gnneh ekt) wenn on de function ekk ethult dl thiyenw
+  username = document.getElementById("myText").value;
+  console.log(username);
+};
+
