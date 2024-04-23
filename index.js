@@ -38,14 +38,14 @@ let fullName = "Avishka Chasith";
 let age = 22;
 let isStudent = true;
 
-document.getElementById("p1").textContent= firstName;    // p tag with p1 id, add Avishka on browser. 
-document.getElementById("p2").textContent= age;    // p tag with p1 id, add 22 on browser. 
-document.getElementById("p3").textContent= isStudent;    // p tag with p1 id, add true on browser. 
+document.getElementById("p1").textContent = firstName; // p tag with p1 id, add Avishka on browser.
+document.getElementById("p2").textContent = age; // p tag with p1 id, add 22 on browser.
+document.getElementById("p3").textContent = isStudent; // p tag with p1 id, add true on browser.
 
 // arithmetic operators = operands (values, variables, etc.)
 let student = 30;
 console.log(student); // 30  shows in developer tools console tab
-student = student +1;
+student = student + 1;
 console.log(student); // now show 31
 student = student ** 2;
 console.log(student); // 961
@@ -54,4 +54,4 @@ console.log(student); // 961
 // * = multiply
 // / = devide
 // % = modules. give remainder
- student +=1;   // this is same to student = student + 1;
+student += 1; // this is same to student = student + 1;
