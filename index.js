@@ -62,8 +62,17 @@ let username;
 //username = window.prompt(`What is your name?`);
 //console.log(username);
 
-document.getElementById("mySubmit").onclick = function () {           // *sinhala - html eke mySubmit kiyl id attribute ekkin hdpu submit button ek click krm (onclick event ek thmy gnneh ekt) wenn on de function ekk ethult dl thiyenw
+document.getElementById("mySubmit").onclick = function () {
+  // *sinhala - html eke mySubmit kiyl id attribute ekkin hdpu submit button ek click krm (onclick event ek thmy gnneh ekt) wenn on de function ekk ethult dl thiyenw
   username = document.getElementById("myText").value;
   console.log(username);
 };
+
+// type conversion = change the datatype of a value to another
+//                                             (strings, numbers, booleans)
+
+let userAge = window.prompt(`How old are you?`); // user age ek widihata 25 gehuwoth eetpsse age ek ekkin wedi krt console wenneh 251 kiyl. hethuw user input ek string wen nis. a nis apit user input ek number wlt convert krgnn on
+userAge = Number(userAge); // Number function. this function convert another data type into  number. so here string will be convert to the number.
+userAge += 1;
+console.log(userAge);
 
