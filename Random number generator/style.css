@@ -1,0 +1,9 @@
+.myLabel {
+  font-size: 3rem;
+  padding: 10px;
+}
+#myButton {
+  font-size: 3rem;
+  padding: 5px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
